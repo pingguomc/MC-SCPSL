@@ -1,0 +1,17 @@
+name: SCPSL
+version: '0.0.2'
+main: cf.redstart.scpsl.SCPSL
+api-version: '1.19'
+author: pingguomc
+description: a SCP SL plugin
+website: https://github.com/pingguomc/MC-SCPSL
+commands:
+  scpsl:
+    description: 插件主命令
+    usage: /<command>
+    permission: scpsl.scpsl
+    permission-message: 缺少权限节点scpsl.scpsl
+permissions:
+  scpsl.scpsl:
+    description: scpsl指令权限节点
+    default: op

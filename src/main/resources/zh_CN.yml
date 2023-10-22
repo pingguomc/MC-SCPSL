@@ -1,0 +1,18 @@
+end-scp: '&l&cSCP获胜'
+end-ntf: '&l&9基金会获胜'
+end-ci: '&l&2混沌分裂者获胜'
+end-noting: '&l陷入僵局'
+end-msg-scp: '异常项目侵占了设施。应急响应方案已紧急启动。'
+end-msg-ntf: '所有安全威胁都已被无效化，Site-02又恢复了安全。'
+end-msg-ci: '基金会安保势力被彻底消灭。特工们随时待命准备出动。'
+end-msg-noting: 'Site-02基本得到控制，但也为此付出了一定代价。最终的赢家难下定论。'
+end-msg-msg-1: {0}' 名D级人员逃离设施'
+end-msg-msg-2: {1}' 名科学家逃离设施'
+end-msg-msg-3-1: 'Alpha核弹共了结了 '{2}' 条人命。'
+end-msg-msg-3-2: 'Alpha核弹并未在本回合中使用。'
+begin-1: "回合即将开始"
+begin-2: "回合已经暂停"
+scp-173: "你是：&lSCP-173"
+scp-106: "你是：&lSCP-106"
+scp-096: "你是：&lSCP-096"
+scp-049: "你是：&lSCP-049"
