@@ -46,6 +46,5 @@ public final class SCPSL extends JavaPlugin {
         getLogger().info("|      插件已经卸载    |");
         getLogger().info("|         再见！       |");
         getLogger().info("------------------------");
-        System.out.println("&l&9 See You ！");
     }
 }
