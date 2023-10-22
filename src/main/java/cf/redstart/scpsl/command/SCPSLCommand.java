@@ -1,11 +1,15 @@
 package cf.redstart.scpsl.command;
 
 import org.bukkit.ChatColor;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
+import org.bukkit.command.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class SCPSLCommand implements CommandExecutor {
+/**
+ * 注册指令
+ */
+
+public class SCPSLCommand implements CommandExecutor, TabExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
@@ -15,7 +19,7 @@ public class SCPSLCommand implements CommandExecutor {
         }else if (args.length == 1){           //输入一个东西
             String Cmd_1 = args[0];
             if (Cmd_1.equals("help")) {
-                sender.sendMessage(ChatColor.BLUE+"指令帮助");
+                sender.sendMessage(ChatColor.BLUE+"1" );
                 return true;
             }else if (Cmd_1.equals("start")){
                 sender.sendMessage(ChatColor.BLUE+"强制开始游戏");
@@ -79,6 +83,23 @@ public class SCPSLCommand implements CommandExecutor {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public List<String> onTabComplete(CommandSender sender, Command command, String label, String[] args) {
+        if (args.length == 1) {
+            List<String> list = new ArrayList<>();
+            list.add("help");list.add("start");list.add("over");list.add("god");list.add("give");list.add("become");list.add("alpha");
+            return list;
+        }else if(args.length == 2) {
+            String Cmd_1 = args[0];
+            if (Cmd_1.equals("g")){
+                List<String> list = new ArrayList<>();
+                list.add("give");list.add("god");
+                return list;
+            }
+        }
+        return null;
     }
 }
 

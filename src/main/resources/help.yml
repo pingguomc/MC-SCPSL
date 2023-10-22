@@ -1,1 +1,1 @@
-help: "帮助列表 \n "
+help: "帮助列表 \n /scpsl help 获得此列表 \n /scpsl start 强制启动游戏 \n /scpsl over 强制停止游戏 \n /scpsl god 切换无敌模式 \n /scpsl give 给予物品 \n /scpsl become 成为特定角色 \n /scpsl alpha 控制核弹"
