@@ -19,7 +19,7 @@ public final class SCPSL extends JavaPlugin {
         //加载配置文件
         saveDefaultConfig();
         this.saveResource("zh_CN.yml",false);
-        this.saveResource("help.uml",false);
+        this.saveResource("help.yml",false);
         //读取配置信息
         getLogger().info("插件当前语言文件为:"+getConfig().getString("lang"));
         //播放加载消息
