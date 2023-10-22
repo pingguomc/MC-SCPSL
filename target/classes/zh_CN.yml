@@ -11,3 +11,8 @@ end-msg-msg-2: {1}' 名科学家逃离设施'
 end-msg-msg-3-1: 'Alpha核弹共了结了 '{2}' 条人命。'
 end-msg-msg-3-2: 'Alpha核弹并未在本回合中使用。'
 begin-1: "回合即将开始"
+begin-2: "回合已经暂停"
+scp-173: "你是：&lSCP-173"
+scp-106: "你是：&lSCP-106"
+scp-096: "你是：&lSCP-096"
+scp-049: "你是：&lSCP-049"
