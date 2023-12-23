@@ -1,5 +1,9 @@
-version: 003
-#不要动他
-lang: zh_CN
+#版本标记，不要动他
+version: 011
 #语言文件
+lang: zh_CN
+SQL:
+
+
+
 

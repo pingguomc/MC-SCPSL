@@ -1,6 +1,6 @@
 name: SCPSL
-version: '0.0.3'
-main: cf.redstart.scpsl.SCPSL
+version: '0.1.1'
+main: top.redstarmc.scpsl.SCPSL
 api-version: '1.19'
 author: pingguomc
 description: a SCP SL plugin

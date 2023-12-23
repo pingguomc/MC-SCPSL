@@ -1,9 +1,11 @@
-package cf.redstart.scpsl.command;
+package top.redstarmc.scpsl.command;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import static top.redstarmc.scpsl.SCPSL.*;
 
 /**
  * 注册指令
@@ -23,9 +25,13 @@ public class SCPSLCommand implements CommandExecutor, TabExecutor {
                 return true;
             }else if (Cmd_1.equals("start")){
                 sender.sendMessage(ChatColor.BLUE+"强制开始游戏");
+                Game_state = true;
+                Game_pause = false;
                 return true;
             }else if (Cmd_1.equals("over")){
                 sender.sendMessage(ChatColor.BLUE+"强行停止游戏");
+                Game_state = false;
+                Game_pause = true;
                 return true;
             }else if (Cmd_1.equals("god")){
                 sender.sendMessage("你无敌了");

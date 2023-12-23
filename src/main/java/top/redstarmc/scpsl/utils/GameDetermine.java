@@ -1,7 +1,6 @@
-package cf.redstart.scpsl.utils;
+package top.redstarmc.scpsl.utils;
 
 
-import cf.redstart.scpsl.SCPSL;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class GameDetermine extends JavaPlugin {

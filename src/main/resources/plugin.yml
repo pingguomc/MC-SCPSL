@@ -1,6 +1,6 @@
 name: SCPSL
 version: '${project.version}'
-main: cf.redstart.scpsl.SCPSL
+main: top.redstarmc.scpsl.SCPSL
 api-version: '1.19'
 author: pingguomc
 description: a SCP SL plugin
